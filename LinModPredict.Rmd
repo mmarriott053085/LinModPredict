@@ -1,0 +1,10 @@
+---
+title: "LinModPredict"
+author: "Marta Marriott" 
+output: html_document
+date: "2024-04-08"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
