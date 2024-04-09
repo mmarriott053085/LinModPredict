@@ -97,3 +97,6 @@ Based on the data when comparing Model 1  and Model 3, the p-value was small, wi
 anova(model.2, model.3)
 ```
 
+When comparing Model 1 to Model 3 the p-value was small, giving a result of 1.495e-09. This indicates Model 3 is larger than model 2, as the residual sum of squares between the two models show that, once again, Model 3 had a higher accuracy rate when compared to Model 2 by 55 points.
+
+
