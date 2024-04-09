@@ -100,3 +100,11 @@ anova(model.2, model.3)
 When comparing Model 1 to Model 3 the p-value was small, giving a result of 1.495e-09. This indicates Model 3 is larger than model 2, as the residual sum of squares between the two models show that, once again, Model 3 had a higher accuracy rate when compared to Model 2 by 55 points.
 
 
+### Compare Model 1 wtih Model 2 using anova
+
+```{r}
+anova(model.1, model.2)
+```
+
+When comparing Model 1 and Model 2, would could not get a p-value, because the tow models are not nested, as one compares ARM~GRIP and the other does not. Therefore there is no way to compare the the two models accurately. However, the residual sum of squares infers Model 1 has a higher accuracy as it has a lower sum of errors.
+
